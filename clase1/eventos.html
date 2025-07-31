@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controladores de eventos</title>
+    <style>
+        body{
+            background-color: rgb(220, 176, 176);
+        }
+    </style>
+</head>
+<body>
+    <h1>Controladores de eventos</h1>
+
+    <button onclick="document.body.style.backgroundColor='lightblue'">celeste</button>
+    <button onclick="document.body.style.backgroundColor='orange'">naranja</button>
+    <button onclick="document.body.style.backgroundColor='green'">verde</button>
+
+    <p>
+        En Javascript tenemos controladores de eventos. 
+        Éstos sirven para ejecutar código JavaScript 
+        cuando suceda cierto evento (por ejemplo hacer clic)
+    </p>
+
+    <button onclick="alert('hiciste click!')">haz click!</button>
+    <br>
+    <img src="imgs/warning.png" onclick="alert('hiciste click!')">
+
+
+    <p>
+        La palabra reservada documento hace referencia a todo el documento html <br>
+        Técnicamente hace referencia al DOM
+    </p>
+</body>
+</html>
