@@ -21,23 +21,23 @@
 
 ### DOM (Document Object Model)
 
-Document
-  └── html
-       ├── head
-       │    ├── title
-       │    │    └── #text
-       │    ├── meta
-       │    └── link
-       └── body
-            ├── h1
-            │    └── #text
-            ├── p
-            │    └── #text
-            ├── div
-            │    ├── img
-            │    └── p
-            │         └── #text
-            └── script
+          Document  
+          └── html  
+               ├── head  
+               │    ├── title  
+               │    │    └── #text  
+               │    ├── meta  
+               │    └── link  
+               └── body  
+                    ├── h1  
+                    │    └── #text  
+                    ├── p  
+                    │    └── #text  
+                    ├── div  
+                    │    ├── img  
+                    │    └── p  
+                    │         └── #text  
+                    └── script  
 
 > Cuándo un navegador lee un documento html almacena en memoria su estructura y cada uno de los elementos
 > A cada uno de estos elementos los convierte en objetos que luego van a poder ser manipulados
