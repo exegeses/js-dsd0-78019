@@ -44,3 +44,12 @@ h1{
     padding: 24px;
     transition: 500ms;
 }
+
+#seleccionar{
+    background-color: hsl(213, 76%, 12%);
+}
+    #articulo{
+        width: 380px;
+        height: 56px;
+        background-color: hsl(213, 76%, 20%);
+    }
