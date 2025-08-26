@@ -53,3 +53,21 @@ h1{
         height: 56px;
         background-color: hsl(213, 76%, 20%);
     }
+
+#rotador{
+    padding: 16px 24px;
+    border-radius: 16px;
+    background-color: hsl(213, 76%, 10%);
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+    #rotador img{
+        filter: invert();
+        cursor: pointer;
+        transition: .5s;
+    }
+    #rotador img:hover{
+        transform: scale(1.3);
+    }
