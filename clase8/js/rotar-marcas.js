@@ -25,4 +25,11 @@ anterior.onclick = function()
                         }
                         span.textContent = marcas[indice]
                     }
-                    
+siguiente.onclick = function()
+                    {
+                        indice ++
+                        if( indice > marcas.length-1 ){
+                            indice = 0
+                        }
+                        span.textContent = marcas[indice]
+                    }                    
